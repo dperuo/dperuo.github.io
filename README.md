@@ -1,4 +1,6 @@
 dperuo.github.io
 ================
 
-Official repo for GitHub Pages
+My official [GitHub Pages][ghp] repo
+
+[ghp]: http://dperuo.github.io
