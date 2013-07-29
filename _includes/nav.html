@@ -1,3 +1,5 @@
 <ul>
-    <li><a href="./words">Words</a></li>
+  {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>

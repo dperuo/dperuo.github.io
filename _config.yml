@@ -1,3 +1,4 @@
-name: Derek Peruo
+name: DBP Ventures
+markdown: redcarpet
 pygments: true
-permalink: /:title
+permalink: none
