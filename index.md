@@ -24,4 +24,4 @@ Other interests include health and well-being; food and wine; art and theatre; d
 
 #### Connect with you
 
-Email and GitHub are the best ways to contact me. Feel free to connect and discover more about all the projects I'm working on.
+Email and Vimeo are the best ways to contact me. Feel free to connect and discover more about all the projects I'm working on.
