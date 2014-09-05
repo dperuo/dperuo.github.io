@@ -1,0 +1,26 @@
+{
+  "name": "_resume2",
+  "version": "0.0.0",
+  "description": "derekperuo.net",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.7"
+  },
+  "devDependencies": {
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-typescript": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Peruo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dperuo/resume"
+  },
+  "bugs": {
+    "url": "https://github.com/dperuo/resume/issues"
+  },
+  "homepage": "https://github.com/dperuo/resume"
+}

@@ -1,6 +1,4 @@
-dperuo.github.io
-================
+resume
+======
 
-My official [GitHub Pages][ghp] repo
-
-[ghp]: http://dperuo.github.io
+My resume, written in HTML, Sass and CoffeeScript. It prints nicely, too!
