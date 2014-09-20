@@ -145,7 +145,20 @@
               transform: translateY(0);
   }
 
+  .print-btn {
+    outline:       none;
+    background:    none;
+    padding:       0.1em 1em;
+    border:        1px solid grey;
+    border-radius: 1em;
+    color:         grey;
+    cursor:        pointer;
 
+    &:active {
+      color:            white;
+      background-color: grey;
+    }
+  }
 
 
 
