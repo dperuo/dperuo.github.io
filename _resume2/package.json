@@ -1,26 +1,26 @@
 {
-  "name": "_resume2",
-  "version": "0.0.0",
-  "description": "derekperuo.net",
+  "name": "derekperuo.net",
+  "version": "2.0.0",
+  "description": "My resume, coded as a website. It prints nicely, too!",
   "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.8.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.8.7",
     "gulp-ruby-sass": "^0.7.1",
-    "gulp-typescript": "^0.3.1"
+    "gulp-typescript": "^0.3.1",
+    "gulp-util": "^3.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Derek Peruo",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dperuo/resume"
+    "url": "https://github.com/dperuo/dperuo.github.io"
   },
+  "author": "Derek Peruo",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dperuo/resume/issues"
+    "url": "https://github.com/dperuo/dperuo.github.io/issues"
   },
-  "homepage": "https://github.com/dperuo/resume"
+  "homepage": "https://github.com/dperuo/dperuo.github.io"
 }
