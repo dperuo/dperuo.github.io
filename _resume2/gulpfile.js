@@ -30,7 +30,8 @@ gulp.task('default', defaultFn);
 // --------------- TASK FUNCTIONS --------------- //
 function scssFn() {
   gulp.src(inputs.scss)
-      .pipe(sass({style: 'compressed', noCache: true}))
+      // .pipe(sass({style: 'compressed', noCache: true}))
+      .pipe(sass({style: 'compressed'}))
       .on('error', errorFn)
       .pipe(gulp.dest(outputs.css))
 };
