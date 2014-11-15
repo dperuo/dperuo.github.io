@@ -34,7 +34,7 @@
     {
       "company":     "Renaissance Fitness Inc.",
       "title":       "Front-End Developer, Story Designer" ,
-      "description": "Static site built with Jekyll",
+      "description": "Static site built with Jekyll and Bootstrap",
       "location":    "New York, NY, USA",
       "dates":       "Jan 2010 &ndash; Jun 2014",
       "logo":        "logo-rfi.svg"
