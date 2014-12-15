@@ -1,0 +1,52 @@
+{
+
+  "currently": "Automating all the things!",
+
+  "work": [
+
+    {
+      "company":     "Thomson Reuters",
+      "title":       "Software Developer (contractor)",
+      "description": "Rebuilt desktop software in Angular.js",
+      "location":    "Hoboken, NJ, USA",
+      "dates":       "Jul 2014 &ndash; Present",
+      "logo":        "no-logo.svg"
+    },
+
+    {
+      "company":     "McKinsey &amp; Company",
+      "title":       "Front-End Developer (contractor)",
+      "description": "Responsive IE8-friendly CSS layouts",
+      "location":    "New York, NY, USA",
+      "dates":       "Jun 2014 &ndash; Aug 2014",
+      "logo":        "logo-mckinsey.svg"
+    },
+
+    {
+      "company":     "Highwire Shakespeare",
+      "title":       "Front-End Developer (side project)",
+      "description": "Responsive text using jQuery",
+      "location":    "New York, NY, USA",
+      "dates":       "Feb 2013 &ndash; Present",
+      "logo":        "logo-hws.svg"
+    },
+
+    {
+      "company":     "Renaissance Fitness Inc.",
+      "title":       "Front-End Developer, Story Designer" ,
+      "description": "Static site built with Jekyll and Bootstrap",
+      "location":    "New York, NY, USA",
+      "dates":       "Jan 2010 &ndash; Jun 2014",
+      "logo":        "logo-rfi.svg"
+    },
+
+    {
+      "company":     "Body By D-Rock",
+      "title":       "Front-End Developer, Story Designer" ,
+      "description": "Wordpress theme and CMS maintenance",
+      "location":    "Chicago, IL, USA",
+      "dates":       "Jan 2008 &ndash; Jan 2010",
+      "logo":        "logo-bbd.svg"
+    }
+  ]
+}

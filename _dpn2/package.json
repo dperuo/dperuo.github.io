@@ -1,0 +1,19 @@
+{
+  "name": "derekperuo.net",
+  "version": "2.0.0",
+  "description": "My resume, coded as a website. It prints nicely, too!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dperuo/dperuo.github.io"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperuo/dperuo.github.io/issues"
+  },
+  "homepage": "https://github.com/dperuo/dperuo.github.io"
+}
