@@ -1,0 +1,11 @@
+{
+  "name": "no-js",
+  "version": "1.0.0",
+  "description": "Remove the 'no-js' class from the <html> element when JavaScript's enabled",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT"
+}
