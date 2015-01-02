@@ -6,8 +6,8 @@
 
     {
       "company":     "National Basketball Association (NBA)",
-      "title":       "Software Consultant (contractor)",
-      "description": "Made <a href=\"http://stats.nba.com\">stats.nba.com</a> even more awesome",
+      "title":       "Software Consultant (contract)",
+      "description": "Made <a href=\"http://stats.nba.com\">http://stats.nba.com</a> more awesome",
       "location":    "Secaucus, NJ, USA",
       "dates":       "Dec 2014 &ndash; Present",
       "logo":        "logo-nba.svg"
@@ -15,7 +15,7 @@
 
     {
       "company":     "Thomson Reuters",
-      "title":       "Software Developer (contractor)",
+      "title":       "Software Developer (contract)",
       "description": "Rebuilt desktop software in Angular.js",
       "location":    "Hoboken, NJ, USA",
       "dates":       "Jul 2014 &ndash; Dec 2014",
@@ -24,7 +24,7 @@
 
     {
       "company":     "McKinsey &amp; Company",
-      "title":       "Front-End Developer (contractor)",
+      "title":       "Front-End Developer (contract)",
       "description": "Responsive IE8-friendly CSS layouts",
       "location":    "New York, NY, USA",
       "dates":       "Jun 2014 &ndash; Aug 2014",
@@ -43,19 +43,10 @@
     {
       "company":     "Renaissance Fitness Inc.",
       "title":       "Front-End Developer, Story Designer" ,
-      "description": "Static site built with Jekyll and Bootstrap",
+      "description": "Wordpress, Jekyll, Bootstrap",
       "location":    "New York, NY, USA",
-      "dates":       "Jan 2010 &ndash; Jun 2014",
+      "dates":       "Jan 2008 &ndash; Jun 2014",
       "logo":        "logo-rfi.svg"
-    },
-
-    {
-      "company":     "Body By D-Rock",
-      "title":       "Front-End Developer, Story Designer" ,
-      "description": "Wordpress theme and CMS maintenance",
-      "location":    "Chicago, IL, USA",
-      "dates":       "Jan 2008 &ndash; Jan 2010",
-      "logo":        "logo-bbd.svg"
     }
   ]
 }
