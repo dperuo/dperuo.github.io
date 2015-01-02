@@ -1,15 +1,24 @@
 {
 
-  "currently": "Automating all the things!",
+  "currently": "Quoted on <a href=\"https://psdtowp.net/css-preprocessors.html#derek-peruo\">PSD to WP</a>!",
 
   "work": [
+
+    {
+      "company":     "National Basketball Association (NBA)",
+      "title":       "Software Consultant (contractor)",
+      "description": "Made <a href=\"http://stats.nba.com\">stats.nba.com</a> even more awesome",
+      "location":    "Secaucus, NJ, USA",
+      "dates":       "Dec 2014 &ndash; Present",
+      "logo":        "logo-nba.svg"
+    },
 
     {
       "company":     "Thomson Reuters",
       "title":       "Software Developer (contractor)",
       "description": "Rebuilt desktop software in Angular.js",
       "location":    "Hoboken, NJ, USA",
-      "dates":       "Jul 2014 &ndash; Present",
+      "dates":       "Jul 2014 &ndash; Dec 2014",
       "logo":        "no-logo.svg"
     },
 

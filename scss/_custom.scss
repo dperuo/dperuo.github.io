@@ -65,8 +65,9 @@
     }
     .company-logo {
       position: absolute;
-      top: 50%;
-      right: 0;
+      top:      50%;
+      right:    0;
+      height:   100%;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
