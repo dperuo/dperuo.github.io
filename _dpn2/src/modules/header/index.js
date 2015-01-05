@@ -1,10 +1,10 @@
-var headerFactory = require('./headerFactory');
+var HeaderFactory = require('./headerFactory');
 var headerCtrl    = require('./headerCtrl');
 
 angular
   .module('header', [])
-  .factory('headerFactory', headerFactory)
+  .factory('HeaderFactory', HeaderFactory)
   .controller('headerCtrl', headerCtrl);
 
-headerFactory.$inject = ['$http'];
-headerCtrl.$inject    = ['headerFactory'];
+HeaderFactory.$inject = ['$http'];
+headerCtrl.$inject    = ['HeaderFactory'];

@@ -1,5 +1,9 @@
-module.exports = function headerCtrl (headerFactory) {
+module.exports = function headerCtrl (HeaderFactory) {
   var vm = this;
 
-  vm.currentEvent = headerFactory.currentEvent;
+  HeaderFactory
+    .getCurrentEvent()
+    .then(function() {
+      vm.currentEvent = HeaderFactory.currentEvent;
+    });
 };
