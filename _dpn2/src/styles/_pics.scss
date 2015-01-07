@@ -1,0 +1,38 @@
+.company-logo {
+  max-width: 1.5in;
+  float: right;
+  @media screen and (max-width: 36em) {
+    display: none;
+  }
+}
+
+.icon {
+  display: inline-block;
+  font-style: normal;
+}
+
+.right-arrow {
+  &:before {
+    content: '\2794';
+  }
+}
+
+.heart {
+  &:before {
+    content: '\2665';
+  }
+}
+
+.github-ribbon {
+  @media screen and (max-width: 55em) {
+    display: none;
+  }
+}
+
+.github-ribbon-text {
+  display: none;
+  @media screen and (max-width: 55em) {
+    display: inherit;
+  }
+}
+
