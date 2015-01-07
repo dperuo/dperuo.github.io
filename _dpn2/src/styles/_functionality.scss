@@ -1,0 +1,58 @@
+.toggle-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.section--filter {
+  position: relative;
+  top: -3px;
+  left: 1rem;
+  width: 200px;
+  border: 1px solid silver;
+}
+
+.skill-list__item.ng-move,
+.skill-list__item.ng-enter,
+.skill-list__item.ng-leave {
+  -webkit-transition: 0.75s ease all;
+          transition: 0.75s ease all;
+}
+
+.skill-list__item.ng-enter,
+.skill-list__item.ng-leave.ng-leave-active {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.skill-list__item.ng-leave,
+.skill-list__item.ng-enter.ng-enter-active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.print-btn {
+  outline:       none;
+  background:    none;
+  padding:       0.1em 1em;
+  border:        1px solid grey;
+  border-radius: 1em;
+  color:         grey;
+  cursor:        pointer;
+
+  &:active {
+    color:            white;
+    background-color: grey;
+  }
+}
