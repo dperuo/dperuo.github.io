@@ -14,8 +14,11 @@
   },
   "homepage": "https://github.com/dperuo/dperuo.github.io",
   "scripts": {
-    "build":      "npm run copy-index && npm run browserfy",
+
+    "build":      "npm run copy-index && npm run sass && npm run browserfy",
+
+    "browserfy":  "./brwsrfy.sh",
     "copy-index": "cp -fv src/index.html app/index.html",
-    "browserfy":  "./brwsrfy.sh"
+    "sass":       "sass src/app.scss app/css/bundle.css"
   }
 }
