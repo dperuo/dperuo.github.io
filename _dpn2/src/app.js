@@ -1,5 +1,5 @@
-var noJS   = require('./modules/global/no-js');
-var header = require('./modules/header');
+var noJS   = require('./components/global/no-js');
+var header = require('./components/header');
 
 noJS();
 
