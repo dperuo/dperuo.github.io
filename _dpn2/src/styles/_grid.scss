@@ -1,12 +1,13 @@
 .row {
-  width: 100%;
-  padding-bottom: 0.1in;
+  width:          100%;
+  padding-bottom: 0.5in;
 }
 
 .col {
-  float:left;
+  float: left;
+
   &:last-child {
-    float: right;
+    float:      right;
     text-align: right;
   }
 }
@@ -17,7 +18,7 @@
   &:after {
     content: '';
     display: table;
-    clear:both;
+    clear:   both;
   }
 }
 

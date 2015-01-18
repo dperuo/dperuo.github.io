@@ -32,7 +32,7 @@ h1 {
 
 .row {
   width: 100%;
-  padding-bottom: 0.1in; }
+  padding-bottom: 0.5in; }
 
 .col {
   float: left; }
@@ -173,7 +173,7 @@ body {
   .header__contact:last-child {
     padding-bottom: none; }
 
-.current-event {
+.header__current-event {
   text-align: center; }
 
 .section__heading {
