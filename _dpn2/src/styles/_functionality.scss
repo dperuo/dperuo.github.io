@@ -78,12 +78,13 @@
   &:hover {
     background: linear-gradient(#999, #333);
     color:      white;
-    transition: all 0 ease;
+    box-shadow: none;
   }
 
   &:active {
     background: linear-gradient(#333, #999);
     color:      white;
+    box-shadow: none;
     transition: all 0 ease;
   }
 }
