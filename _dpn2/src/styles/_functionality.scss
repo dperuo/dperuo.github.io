@@ -56,3 +56,34 @@
     background-color: grey;
   }
 }
+
+.github-btn {
+  display:         block;
+  position:        absolute;
+  top:             0.2in;
+  right:           0.2in;
+  padding:         0.1in;
+  font-size:       1.5em;
+  text-decoration: none;
+  color:           #333;
+  border:          1px solid #333;
+  border-radius:   5px;
+  box-shadow:      0 0 5px rgba(0,0,0,0.3);
+  transition:      all 0.25s ease;
+
+  @media (max-width: 69em) {
+    display: none;
+  }
+
+  &:hover {
+    background: linear-gradient(#999, #333);
+    color:      white;
+    transition: all 0 ease;
+  }
+
+  &:active {
+    background: linear-gradient(#333, #999);
+    color:      white;
+    transition: all 0 ease;
+  }
+}
