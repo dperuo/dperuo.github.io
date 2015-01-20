@@ -17,7 +17,7 @@
 
     "build":      "npm run sass && npm run browserfy",
 
-    "browserfy":  "./brwsrfy.sh && ./success.sh",
+    "browserfy":  "browserify ./src/app.js -d -o ./app/js/bundle.js && ./success.sh",
     "sass":       "sass src/app.scss app/css/bundle.css && ./success.sh"
   }
 }
