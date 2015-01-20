@@ -294,7 +294,7 @@ body {
 
 .github-btn {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0.2in;
   right: 0.2in;
   padding: 0.1in;
