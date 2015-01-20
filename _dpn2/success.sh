@@ -9,8 +9,8 @@ nc='\033[0m'    # No Color
 # String Variables
 yep='✔'
 nope='✘'
-success="${g}${yep} Success!\n"
-fail="${r}${nope} Fail.\n"
+success="${g}${yep} Success!${nc}\n"
+fail="${r}${nope} Fail.${nc}\n"
 
 
 printf "${success}"
