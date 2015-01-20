@@ -13,4 +13,4 @@ success="${g}${yep} Success!\n"
 fail="${r}${nope} Fail.\n"
 
 
-browserify ./src/app.js -d -o ./app/js/bundle.js
+printf "${success}"
