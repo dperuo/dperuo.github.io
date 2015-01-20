@@ -1,0 +1,8 @@
+{
+  "name": "skill-list",
+  "version": "1.0.0",
+  "description": "Load skill list via jQuery",
+  "main": "index.js",
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT"
+}
