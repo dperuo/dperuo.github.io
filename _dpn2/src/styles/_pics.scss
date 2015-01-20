@@ -1,8 +1,13 @@
 .company-logo {
   max-width: 1.5in;
-  float: right;
+  float:     right;
+
   @media screen and (max-width: 36em) {
     display: none;
+  }
+
+  &[src$='nba.png'] {
+    height: 50%;
   }
 }
 
@@ -23,16 +28,4 @@
   }
 }
 
-.github-ribbon {
-  @media screen and (max-width: 55em) {
-    display: none;
-  }
-}
-
-.github-ribbon-text {
-  display: none;
-  @media screen and (max-width: 55em) {
-    display: inherit;
-  }
-}
 

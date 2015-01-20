@@ -1,0 +1,18 @@
+<div class="section" data-dp-used-for="experience">
+  <h4 class="section__heading">EXPERIENCE</h4>
+  <div class="row section__entry" ng-repeat="work in exp.list">
+    <div class="three col">
+      <dl>
+        <dt class="section__item--bold">' + value.location + '</dt><dd>' + value.dates + '</dd>
+      </dl>
+    </div>
+    <div class="four col">
+      <dl>
+        <dt class="section__item--bold">' + value.company + '</dt><dd>' + value.title + '<br><em>' + value.description + '</em></dd>
+      </dl>
+    </div>
+    <div class="three col">
+      <img class="company-logo" src="img/' + value.logo + '" alt="" />
+    </div>
+  </div>
+</div>

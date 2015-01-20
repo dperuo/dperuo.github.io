@@ -48,7 +48,32 @@
 
   </div>
 
-    <experience-list></experience-list>
+    <experience-list>
+      <div class="section" ng-controller="experienceCtrl as exp" data-dp-used-for="experience">
+        <h4 class="section__heading">EXPERIENCE</h4>
+        <!-- <pre>{{exp.work | json}}</pre> -->
+        <div class="row section__entry" ng-repeat="job in exp.work">
+          <div class="three col">
+            <dl>
+              <dt class="section__item--bold">{{job.location}}</dt>
+              <dd>{{job.dates}}</dd>
+            </dl>
+          </div>
+          <div class="four col">
+            <dl>
+              <dt class="section__item--bold">{{job.company}}</dt>
+              <dd>{{job.title}}<br>
+              <em>{{job.description}}</em></dd>
+            </dl>
+          </div>
+          <div class="three col">
+            <a ng-href="{{job.link}}">
+              <img class="company-logo" ng-src="app/img/{{job.logo}}" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </experience-list>
 
     <skill-list></skill-list>
 
