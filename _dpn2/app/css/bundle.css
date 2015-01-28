@@ -286,30 +286,57 @@ body {
     color: white;
     background-color: grey; }
 
-.github-btn {
+.btn--fixed {
   display: block;
   position: fixed;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.btn--github {
   top: 0.2in;
   right: 0.2in;
   padding: 0.1in;
   font-size: 1.5em;
-  text-decoration: none;
   color: #333;
   border: 1px solid #333;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   transition: all 0.25s ease; }
   @media (max-width: 69em) {
-    .github-btn {
+    .btn--github {
       display: none; } }
-  .github-btn:hover {
+  .btn--github:hover {
     background: linear-gradient(#999, #333);
-    color: white;
-    box-shadow: none; }
-  .github-btn:active {
+    color: white; }
+  .btn--github:active {
     background: linear-gradient(#333, #999);
     color: white;
-    box-shadow: none;
     transition: all 0 ease; }
+
+.btn--for-hire {
+  top: 0.2in;
+  left: 0.2in;
+  padding-left: 0.2in;
+  padding-right: 0.2in;
+  padding-bottom: 0.2in;
+  padding-top: 0.15in;
+  width: 2.2in;
+  color: white;
+  line-height: 1.5;
+  border: 2px solid transparent;
+  transition: all 0.25s ease; }
+  @media (max-width: 69em) {
+    .btn--for-hire {
+      display: none; } }
+  .btn--for-hire:hover {
+    background-color: transparent;
+    color: #3f990f;
+    border: 2px solid #3f990f; }
+  .btn--for-hire:active {
+    background-color: #3f990f;
+    color: white;
+    transition: all 0 ease; }
+
+.btn--for-hire-yep {
+  background-color: #3f990f; }
 
 /*# sourceMappingURL=bundle.css.map */
