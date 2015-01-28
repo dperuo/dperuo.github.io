@@ -16,7 +16,7 @@
 
     {
       "company":     "Thomson Reuters",
-      "title":       "Software Developer (contractor)",
+      "title":       "Software Developer (contract)",
       "description": "Rebuilt desktop software in Angular.js",
       "location":    "Hoboken, NJ, USA",
       "dates":       "Jul 2014 – Present",
@@ -25,8 +25,8 @@
     },
 
     {
-      "company":     "McKinsey &amp; Company",
-      "title":       "Front-End Developer (contractor)",
+      "company":     "McKinsey & Company",
+      "title":       "Front-End Developer (contract)",
       "description": "Responsive IE8-friendly CSS layouts",
       "location":    "New York, NY, USA",
       "dates":       "Jun 2014 – Aug 2014",
