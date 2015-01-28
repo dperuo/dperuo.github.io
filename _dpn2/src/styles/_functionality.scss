@@ -6,7 +6,8 @@
   height:           50px;
   background-color: transparent;
   border:           none;
-  &:                focus {
+
+  &:focus {
     outline: none;
   }
 }
@@ -62,17 +63,17 @@
   position:        fixed;
   text-decoration: none;
   border-radius:   5px;
+  text-align:      center;
 }
 
 .btn--github {
-  top:           0.2in;
-  right:         0.2in;
-  padding:       0.1in;
-  font-size:     1.5em;
-  color:         #333;
-  border:        1px solid #333;
-  border-radius: 5px;
-  transition:    all 0.25s ease;
+  top:        0.2in;
+  right:      0.2in;
+  padding:    0.1in;
+  font-size:  1.5em;
+  color:      #333;
+  border:     1px solid #333;
+  transition: all 0.25s ease;
 
   @media (max-width: 69em) {
     display: none;
@@ -97,7 +98,6 @@
   padding-right:   0.2in;
   padding-bottom:  0.2in;
   padding-top:     0.15in;
-  width:           2.2in;
   color:           white;
   line-height:     1.5;
   border:          2px solid transparent;
@@ -122,4 +122,8 @@
 
 .btn--for-hire-yep {
   background-color: #3f990f;
+}
+
+.btn--for-hire-nope {
+  background-color: #9f102e;
 }

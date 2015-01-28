@@ -9,6 +9,10 @@ body {
   }
 }
 
+strong {
+  font-weight: bold;
+}
+
 [data-dp-used-for*="web-only"] {
   @media print {
     display: none;
