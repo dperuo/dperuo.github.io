@@ -277,7 +277,16 @@ strong {
   -ms-transform: translateY(0);
   transform: translateY(0); }
 
-.print-btn {
+.btn {
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center; }
+
+.btn--fixed {
+  position: fixed; }
+
+.btn--print {
   outline: none;
   background: none;
   padding: 0.1em 1em;
@@ -285,16 +294,9 @@ strong {
   border-radius: 1em;
   color: grey;
   cursor: pointer; }
-  .print-btn:active {
+  .btn--print:active {
     color: white;
     background-color: grey; }
-
-.btn--fixed {
-  display: block;
-  position: fixed;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center; }
 
 .btn--github {
   top: 0.2in;
@@ -304,9 +306,6 @@ strong {
   color: #333;
   border: 1px solid #333;
   transition: all 0.25s ease; }
-  @media (max-width: 69em) {
-    .btn--github {
-      display: none; } }
   .btn--github:hover {
     background: linear-gradient(#999, #333);
     color: white; }
@@ -328,7 +327,8 @@ strong {
   transition: all 0.25s ease; }
   @media (max-width: 69em) {
     .btn--for-hire {
-      display: none; } }
+      position: initial;
+      margin-bottom: 3em; } }
   .btn--for-hire:hover {
     background-color: transparent;
     color: #3f990f;
@@ -343,5 +343,9 @@ strong {
 
 .btn--for-hire-nope {
   background-color: #9f102e; }
+
+@media (max-width: 69em) {
+  .btn--github {
+    display: none; } }
 
 /*# sourceMappingURL=bundle.css.map */

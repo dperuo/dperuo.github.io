@@ -22,6 +22,13 @@
   <script src="app/js/bundle.js"></script>
 </head>
 <body>
+
+  <a class="[ btn--for-hire-yep  btn--for-hire  btn--fixed  btn ]" href="mailto:derek@derekperuo.net" data-dp-used-for="web-only">
+    <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
+    <h5>I'm <strong>accepting new projects</strong><br/>
+        for Q1, 2015.</h5>
+  </a>
+
   <div class="header" ng-controller="headerCtrl as header">
 
     <div class="row">
@@ -137,23 +144,17 @@
       </div>
     </div>
 
-    <div class="section" data-dp-used-for="print-me web-only">
+    <div class="section" data-dp-used-for="print-me web-only" hidden>
       <div class="row">
         <div class="ten col text-center">
-          <button class="print-btn" type="button">Print Me</button>
+          <button class="btn--print" type="button">Print Me</button>
         </div>
       </div>
     </div>
 
-    <a class="btn--github btn--fixed" href="https://github.com/dperuo/dperuo.github.io" data-dp-used-for="web-only">
+    <a class="[ btn--github  btn--fixed  btn ]" href="https://github.com/dperuo/dperuo.github.io" data-dp-used-for="web-only">
       <span>View on GitHub</span>
       <span><i class="fa fa-github"></i></span>
-    </a>
-
-    <a class="[ btn--for-hire btn--for-hire-yep ] btn--fixed" href="mailto:derek@derekperuo.net" data-dp-used-for="web-only">
-      <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
-      <h5>I'm <strong>accepting new projects</strong><br/>
-          for Q1, 2015.</h5>
     </a>
 
   </div>
