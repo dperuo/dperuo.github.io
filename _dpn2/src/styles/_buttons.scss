@@ -1,0 +1,102 @@
+.btn {
+  display:         block;
+  text-decoration: none;
+  border-radius:   5px;
+  text-align:      center;
+}
+
+
+
+.btn--fixed {
+  position: fixed;
+}
+
+
+
+.btn--print {
+  outline:       none;
+  background:    none;
+  padding:       0.1em 1em;
+  border:        1px solid grey;
+  border-radius: 1em;
+  color:         grey;
+  cursor:        pointer;
+
+  &:active {
+    color:            white;
+    background-color: grey;
+  }
+}
+
+
+
+.btn--github {
+  top:        0.2in;
+  right:      0.2in;
+  padding:    0.1in;
+  font-size:  1.5em;
+  color:      #333;
+  border:     1px solid #333;
+  transition: all 0.25s ease;
+
+  @extend %hide-on-mobile;
+
+  &:hover {
+    background: linear-gradient(#999, #333);
+    color:      white;
+  }
+
+  &:active {
+    background: linear-gradient(#333, #999);
+    color:      white;
+    transition: all 0 ease;
+  }
+}
+
+
+
+.btn--for-hire {
+  top:             0.2in;
+  left:            0.2in;
+  padding-left:    0.2in;
+  padding-right:   0.2in;
+  padding-bottom:  0.2in;
+  padding-top:     0.15in;
+  color:           white;
+  line-height:     1.5;
+  border:          2px solid transparent;
+  transition:      all 0.25s ease;
+
+  @media (max-width: 69em) {
+    position: initial;
+    margin-bottom: 3em
+  }
+
+  &:hover {
+    background-color: transparent;
+    color:            #3f990f;
+    border:           2px solid #3f990f;
+  }
+
+  &:active {
+    background-color: #3f990f;
+    color:            white;
+    transition:       all 0 ease;
+  }
+}
+
+.btn--for-hire-yep {
+  background-color: #3f990f;
+}
+
+.btn--for-hire-nope {
+  background-color: #9f102e;
+}
+
+
+
+%hide-on-mobile {
+  @media (max-width: 69em) {
+    display: none;
+  }
+}
