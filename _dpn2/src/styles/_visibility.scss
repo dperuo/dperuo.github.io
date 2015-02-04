@@ -1,50 +1,31 @@
 
+[hide-xl] {
+  @media (min-width: $breakpoint-xl) {
+    display: none !important;
+  }
+}
+
 [hide-lg] {
-  @media (min-width: $breakpoint-lg) {
-    display: none;
+  @media (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl){
+    display: none !important;
   }
 }
 
 [hide-md] {
   @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg){
-    display: none;
+    display: none !important;
   }
 }
 
 [hide-sm] {
   @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md){
-    display: none;
+    display: none !important;
   }
 }
 
 [hide-xs] {
   @media (max-width: $breakpoint-sm){
-    display: none;
-  }
-}
-
-
-[show-lg] {
-  @media (min-width: $breakpoint-lg) {
-    display: initial;
-  }
-}
-
-[show-md] {
-  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg){
-    display: initial;
-  }
-}
-
-[show-sm] {
-  @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md){
-    display: initial;
-  }
-}
-
-[show-xs] {
-  @media (max-width: $breakpoint-sm){
-    display: initial;
+    display: none !important;
   }
 }
 

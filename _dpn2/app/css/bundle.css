@@ -1,35 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800);
-@media (min-width: 69em) {
+@media (min-width: 75rem) {
+  [hide-xl] {
+    display: none !important; } }
+
+@media (min-width: 65rem) and (max-width: 75rem) {
   [hide-lg] {
-    display: none; } }
+    display: none !important; } }
 
-@media (min-width: 41em) and (max-width: 69em) {
+@media (min-width: 41rem) and (max-width: 65rem) {
   [hide-md] {
-    display: none; } }
+    display: none !important; } }
 
-@media (min-width: 36em) and (max-width: 41em) {
+@media (min-width: 36rem) and (max-width: 41rem) {
   [hide-sm] {
-    display: none; } }
+    display: none !important; } }
 
-@media (max-width: 36em) {
+@media (max-width: 36rem) {
   [hide-xs] {
-    display: none; } }
-
-@media (min-width: 69em) {
-  [show-lg] {
-    display: initial; } }
-
-@media (min-width: 41em) and (max-width: 69em) {
-  [show-md] {
-    display: initial; } }
-
-@media (min-width: 36em) and (max-width: 41em) {
-  [show-sm] {
-    display: initial; } }
-
-@media (max-width: 36em) {
-  [show-xs] {
-    display: initial; } }
+    display: none !important; } }
 
 @media print {
   [web-only] {
@@ -125,7 +113,7 @@ h1 {
 .offset-ten {
   width: 100%; }
 
-@media screen and (max-width: 36em) {
+@media screen and (max-width: 36rem) {
   .one,
   .two,
   .three,
@@ -137,7 +125,7 @@ h1 {
   .nine {
     width: 50%; } }
 
-@media screen and (max-width: 36em) {
+@media screen and (max-width: 36rem) {
   .offset-one,
   .offset-two,
   .offset-three,
@@ -153,7 +141,7 @@ h1 {
 body {
   max-width: 6.5in;
   margin: 0.25in auto; }
-  @media (max-width: 41em) {
+  @media (max-width: 41rem) {
     body {
       padding-left: 0.1in;
       padding-right: 0.1in; } }
@@ -232,14 +220,14 @@ strong {
   display: block;
   float: left;
   width: 25%; }
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 30rem) {
     .skill-list__item {
       width: 33.33333%; } }
 
 .company-logo {
   max-width: 1.5in;
   float: right; }
-  @media screen and (max-width: 36em) {
+  @media screen and (max-width: 36rem) {
     .company-logo {
       display: none; } }
   .company-logo[src$='nba.png'] {
@@ -322,6 +310,9 @@ strong {
   color: #333;
   border: 1px solid #333;
   transition: all 0.25s ease; }
+  @media (max-width: 65rem) {
+    .btn--github {
+      position: initial; } }
   .btn--github:hover {
     background: linear-gradient(#999, #333);
     color: white; }
@@ -341,7 +332,7 @@ strong {
   line-height: 1.5;
   border: 2px solid transparent;
   transition: all 0.25s ease; }
-  @media (max-width: 69em) {
+  @media (max-width: 75rem) {
     .btn--for-hire {
       position: initial;
       margin-bottom: 3em; } }
@@ -359,9 +350,5 @@ strong {
 
 .btn--for-hire-nope {
   background-color: #9f102e; }
-
-@media (max-width: 69em) {
-  .btn--github {
-    display: none; } }
 
 /*# sourceMappingURL=bundle.css.map */

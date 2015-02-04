@@ -39,7 +39,9 @@
   border:     1px solid #333;
   transition: all 0.25s ease;
 
-  @extend %hide-on-mobile;
+  @media (max-width: $breakpoint-lg) {
+    position: initial;
+  }
 
   &:hover {
     background: linear-gradient(#999, #333);
@@ -67,7 +69,7 @@
   border:          2px solid transparent;
   transition:      all 0.25s ease;
 
-  @media (max-width: $breakpoint-lg) {
+  @media (max-width: $breakpoint-xl) {
     position: initial;
     margin-bottom: 3em
   }
@@ -91,12 +93,4 @@
 
 .btn--for-hire-nope {
   background-color: #9f102e;
-}
-
-
-
-%hide-on-mobile {
-  @media (max-width: $breakpoint-lg) {
-    display: none;
-  }
 }
