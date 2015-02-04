@@ -11,21 +11,6 @@
   }
 }
 
-.icon {
-  display: inline-block;
-  font-style: normal;
+.fa.fa-heart {
+  font-size: 0.9em;
 }
-
-.right-arrow {
-  &:before {
-    content: '\2794';
-  }
-}
-
-.heart {
-  &:before {
-    content: '\2665';
-  }
-}
-
-

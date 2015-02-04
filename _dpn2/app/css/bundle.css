@@ -1,28 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800);
-@media (min-width: 75rem) {
-  [hide-xl] {
-    display: none !important; } }
-
-@media (min-width: 65rem) and (max-width: 75rem) {
-  [hide-lg] {
-    display: none !important; } }
-
-@media (min-width: 41rem) and (max-width: 65rem) {
-  [hide-md] {
-    display: none !important; } }
-
-@media (min-width: 36rem) and (max-width: 41rem) {
-  [hide-sm] {
-    display: none !important; } }
-
-@media (max-width: 36rem) {
-  [hide-xs] {
-    display: none !important; } }
-
-@media print {
-  [web-only] {
-    display: none; } }
-
 * {
   margin: 0;
   padding: 0;
@@ -233,15 +209,8 @@ strong {
   .company-logo[src$='nba.png'] {
     height: 50%; }
 
-.icon {
-  display: inline-block;
-  font-style: normal; }
-
-.right-arrow:before {
-  content: '\2794'; }
-
-.heart:before {
-  content: '\2665'; }
+.fa.fa-heart {
+  font-size: 0.9em; }
 
 .toggle-button {
   position: absolute;
@@ -302,7 +271,7 @@ strong {
     color: white;
     background-color: grey; }
 
-.btn--github {
+.btn--github, .btn--remote {
   top: 0.2in;
   right: 0.2in;
   padding: 0.1in;
@@ -311,15 +280,21 @@ strong {
   border: 1px solid #333;
   transition: all 0.25s ease; }
   @media (max-width: 65rem) {
-    .btn--github {
+    .btn--github, .btn--remote {
       position: initial; } }
-  .btn--github:hover {
+  .btn--github:hover, .btn--remote:hover {
     background: linear-gradient(#999, #333);
     color: white; }
-  .btn--github:active {
+  .btn--github:active, .btn--remote:active {
     background: linear-gradient(#333, #999);
     color: white;
     transition: all 0 ease; }
+
+.btn--remote {
+  top: 1in; }
+  @media (max-width: 65rem) {
+    .btn--remote {
+      margin-bottom: 0.3in; } }
 
 .btn--for-hire {
   top: 0.2in;
@@ -350,5 +325,35 @@ strong {
 
 .btn--for-hire-nope {
   background-color: #9f102e; }
+
+@media (min-width: 75rem) {
+  [hide-xl] {
+    display: none !important; } }
+
+@media (min-width: 65rem) and (max-width: 75rem) {
+  [hide-lg] {
+    display: none !important; } }
+
+@media (min-width: 41rem) and (max-width: 65rem) {
+  [hide-md] {
+    display: none !important; } }
+
+@media (min-width: 36rem) and (max-width: 41rem) {
+  [hide-sm] {
+    display: none !important; } }
+
+@media (max-width: 36rem) {
+  [hide-xs] {
+    display: none !important; } }
+
+@media print {
+  [web-only] {
+    display: none; } }
+
+[print-only] {
+  display: none; }
+  @media print {
+    [print-only] {
+      display: initial; } }
 
 /*# sourceMappingURL=bundle.css.map */

@@ -57,6 +57,18 @@
 
 
 
+.btn--remote {
+  top: 1in;
+
+  @extend .btn--github;
+
+  @media (max-width: $breakpoint-lg) {
+    margin-bottom: 0.3in;
+  }
+}
+
+
+
 .btn--for-hire {
   top:             0.2in;
   left:            0.2in;
