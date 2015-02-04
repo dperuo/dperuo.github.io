@@ -67,7 +67,7 @@
   border:          2px solid transparent;
   transition:      all 0.25s ease;
 
-  @media (max-width: 69em) {
+  @media (max-width: $breakpoint-lg) {
     position: initial;
     margin-bottom: 3em
   }
@@ -96,7 +96,7 @@
 
 
 %hide-on-mobile {
-  @media (max-width: 69em) {
+  @media (max-width: $breakpoint-lg) {
     display: none;
   }
 }

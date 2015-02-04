@@ -2,7 +2,7 @@
   max-width: 1.5in;
   float:     right;
 
-  @media screen and (max-width: 36em) {
+  @media screen and (max-width: $breakpoint-sm) {
     display: none;
   }
 

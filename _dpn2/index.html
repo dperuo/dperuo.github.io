@@ -23,29 +23,29 @@
 </head>
 <body>
 
-  <a class="[ btn--for-hire-yep  btn--for-hire  btn--fixed  btn ]" href="mailto:derek@derekperuo.net" data-dp-used-for="web-only">
+  <a class="[ btn--for-hire-yep  btn--for-hire  btn--fixed  btn ]" href="mailto:derek@derekperuo.net" web-only>
     <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
-    <h5>I'm <strong>accepting new projects</strong><br/>
+    <h5 web-only>I'm <strong>accepting new projects</strong><br hide-xs hide-sm hide-md/>
         for Q1, 2015.</h5>
   </a>
 
   <div class="header" ng-controller="headerCtrl as header">
 
     <div class="row">
-      <div class="five col" max-width-at="25em">
+      <div class="five col">
         <h1 class="header__name">Derek Peruo</h1>
         <h4 class="header__role">Front-End Developer</h4>
         <h5 class="header__location">New York, NY, USA</h5>
       </div>
 
-      <div  class="five col text-right" max-width-at="25em">
+      <div  class="five col text-right">
         <p class="header__contact">+1 646 820 8246</p>
         <p class="header__contact">derek@derekperuo.net</p>
         <a class="header__contact" href="https://github.com/dperuo">github.com/dperuo</a>
       </div>
     </div>
 
-    <div class="row" data-dp-used-for="web-only">
+    <div class="row" web-only>
       <div class="ten col">
         <h4 class="header__current-event">
           ~ Currently: {{::header.currentEvent}} ~
@@ -56,7 +56,7 @@
   </div>
 
     <experience-list>
-      <div class="section" ng-controller="experienceCtrl as exp" data-dp-used-for="experience">
+      <div class="section" ng-controller="experienceCtrl as exp" used-for="experience">
         <h4 class="section__heading">EXPERIENCE</h4>
         <!-- <pre>{{exp.work | json}}</pre> -->
         <div class="row section__entry" ng-repeat="job in exp.work">
@@ -83,12 +83,12 @@
     </experience-list>
 
     <skill-list>
-      <div class="section" data-dp-used-for="education">
+      <div class="section" used-for="skills">
         <h4 class="section__heading">TOP 12 SKILLS</h4>
       </div>
     </skill-list>
 
-    <div class="section" data-dp-used-for="education">
+    <div class="section" used-for="education">
       <h4 class="section__heading">EDUCATION</h4>
       <div class="row section__entry">
         <div class="three col">
@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <div class="section" data-dp-used-for="language web-only">
+    <div class="section" used-for="language" web-only>
       <h4 class="section__heading">LANGUAGE</h4>
       <div class="row section__entry">
         <div class="ten col text-left">
@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <div class="section" data-dp-used-for="books web-only">
+    <div class="section" used-for="books" web-only>
       <h4 class="section__heading">INFLUENCIAL BOOKS</h4>
       <div class="row section__entry">
         <div class="ten col text-left">
@@ -135,7 +135,7 @@
       </div>
     </div>
 
-    <div class="section" data-dp-used-for="love-remote">
+    <div class="section" used-for="love-remote">
       <h4 class="section__heading">I <i class="heart icon"></i> REMOTE</h4>
       <div class="row section__entry">
         <div class="ten col text-left">
@@ -144,15 +144,7 @@
       </div>
     </div>
 
-    <div class="section" data-dp-used-for="print-me web-only" hidden>
-      <div class="row">
-        <div class="ten col text-center">
-          <button class="btn--print" type="button">Print Me</button>
-        </div>
-      </div>
-    </div>
-
-    <a class="[ btn--github  btn--fixed  btn ]" href="https://github.com/dperuo/dperuo.github.io" data-dp-used-for="web-only">
+    <a class="[ btn--github  btn--fixed  btn ]" href="https://github.com/dperuo/dperuo.github.io" web-only>
       <span>View on GitHub</span>
       <span><i class="fa fa-github"></i></span>
     </a>

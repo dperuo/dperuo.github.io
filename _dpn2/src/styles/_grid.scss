@@ -89,7 +89,7 @@
 .seven,
 .eight,
 .nine {
-  @media screen and (max-width: 36em) {
+  @media screen and (max-width: $breakpoint-sm) {
     width: 50%;
   }
 }
@@ -104,7 +104,7 @@
 .offset-eight,
 .offset-nine,
 .offset-ten {
-  @media screen and (max-width: 36em) {
+  @media screen and (max-width: $breakpoint-sm) {
     margin-left: 0;
   }
 }
