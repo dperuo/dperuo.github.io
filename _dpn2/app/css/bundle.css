@@ -263,21 +263,21 @@ strong {
   outline: none;
   background: none;
   padding: 0.1em 1em;
-  border: 1px solid grey;
+  border: 1px solid #888888;
   border-radius: 1em;
-  color: grey;
+  color: #888888;
   cursor: pointer; }
   .btn--print:active {
     color: white;
-    background-color: grey; }
+    background-color: #888888; }
 
 .btn--github, .btn--remote {
   top: 0.2in;
   right: 0.2in;
   padding: 0.1in;
   font-size: 1.5em;
-  color: #333;
-  border: 1px solid #333;
+  color: #333333;
+  border: 1px solid #333333;
   transition: all 0.25s ease; }
   @media (max-width: 65rem) {
     .btn--github, .btn--remote {

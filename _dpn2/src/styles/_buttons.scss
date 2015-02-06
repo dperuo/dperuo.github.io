@@ -17,14 +17,14 @@
   outline:       none;
   background:    none;
   padding:       0.1em 1em;
-  border:        1px solid grey;
+  border:        1px solid $neutral;
   border-radius: 1em;
-  color:         grey;
+  color:         $neutral;
   cursor:        pointer;
 
   &:active {
     color:            white;
-    background-color: grey;
+    background-color: $neutral;
   }
 }
 
@@ -35,8 +35,8 @@
   right:      0.2in;
   padding:    0.1in;
   font-size:  1.5em;
-  color:      #333;
-  border:     1px solid #333;
+  color:      $dark;
+  border:     1px solid $dark;
   transition: all 0.25s ease;
 
   @media (max-width: $breakpoint-lg) {
@@ -88,21 +88,21 @@
 
   &:hover {
     background-color: transparent;
-    color:            #3f990f;
-    border:           2px solid #3f990f;
+    color:            $positive;
+    border:           2px solid $positive;
   }
 
   &:active {
-    background-color: #3f990f;
+    background-color: $positive;
     color:            white;
     transition:       all 0 ease;
   }
 }
 
 .btn--for-hire-yep {
-  background-color: #3f990f;
+  background-color: $positive;
 }
 
 .btn--for-hire-nope {
-  background-color: #9f102e;
+  background-color: $negative;
 }
