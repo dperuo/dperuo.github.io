@@ -58,7 +58,6 @@
     <experience-list>
       <div class="section" ng-controller="experienceCtrl as exp" used-for="experience">
         <h4 class="section__heading">EXPERIENCE</h4>
-        <!-- <pre>{{exp.work | json}}</pre> -->
         <div class="row section__entry" ng-repeat="job in exp.work">
           <div class="three col">
             <dl>
@@ -85,7 +84,23 @@
     <skill-list>
       <div class="section" used-for="skills">
         <h4 class="section__heading">TOP 12 SKILLS</h4>
+        <div class="row section__entry">
+          <ul class="skill-list">
+            <li class="skill-list__item">Angular.js</li>
+            <li class="skill-list__item">Bootstrap 3</li>
+            <li class="skill-list__item">CSS3</li>
+            <li class="skill-list__item">Foundation 5</li>
+            <li class="skill-list__item">Illustrator</li>
+            <li class="skill-list__item">Jasmine</li>
+            <li class="skill-list__item">JavaScript</li>
+            <li class="skill-list__item">jQuery</li>
+            <li class="skill-list__item">Node.js</li>
+            <li class="skill-list__item">Photoshop</li>
+            <li class="skill-list__item">Sass</li>
+            <li class="skill-list__item"><a href="http://git.io/URCTEA"><i class="fa fa-fw fa-share"></i>More&hellip;</a></li>
+          </ul>
       </div>
+    </div>
     </skill-list>
 
     <div class="section" used-for="education">
@@ -112,7 +127,7 @@
         <div class="ten col text-left">
           <ul class="skill-list">
             <li class="skill-list__item">English (native)</li>
-            <li class="skill-list__item">French (basic)</li>
+            <li class="skill-list__item">French (élémentaire)</li>
             <li class="skill-list__item">Spanish (basic)</li>
           </ul>
         </div>
@@ -148,11 +163,12 @@
       <span>I <i class="fa fa-heart"></i> Remote</span>
     </a>
 
+    <!--
     <a class="[ btn--github  btn--fixed  btn ]" href="https://github.com/dperuo/dperuo.github.io" web-only>
       <span>View on GitHub</span>
       <span><i class="fa fa-github"></i></span>
     </a>
-
+    -->
 
 
   </div>
