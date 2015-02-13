@@ -1,6 +1,6 @@
 module.exports = function experienceDirective () {
   return {
-    scope: {},
-
+    restrict: 'E',
+    templateUrl: 'src/components/experience/experienceTemplate.html'
   };
 };
