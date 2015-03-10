@@ -1,7 +1,6 @@
+*.swp
 .sass-cache/
 _drafts/
 _site/
 node_modules/
-
-*.swp
-
+rwdjs.js
