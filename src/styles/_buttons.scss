@@ -85,6 +85,10 @@
     position: initial;
     margin-bottom: 3em
   }
+}
+
+.btn--for-hire-yep {
+  background-color: $positive;
 
   &:hover {
     background-color: transparent;
@@ -99,10 +103,18 @@
   }
 }
 
-.btn--for-hire-yep {
-  background-color: $positive;
-}
-
 .btn--for-hire-nope {
   background-color: $negative;
+
+  &:hover {
+    background-color: transparent;
+    color:            $negative;
+    border:           2px solid $negative;
+  }
+
+  &:active {
+    background-color: $negative;
+    color:            white;
+    transition:       all 0 ease;
+  }
 }

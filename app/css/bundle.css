@@ -311,20 +311,28 @@ strong {
     .btn--for-hire {
       position: initial;
       margin-bottom: 3em; } }
-  .btn--for-hire:hover {
+
+.btn--for-hire-yep {
+  background-color: #3f990f; }
+  .btn--for-hire-yep:hover {
     background-color: transparent;
     color: #3f990f;
     border: 2px solid #3f990f; }
-  .btn--for-hire:active {
+  .btn--for-hire-yep:active {
     background-color: #3f990f;
     color: white;
     transition: all 0 ease; }
 
-.btn--for-hire-yep {
-  background-color: #3f990f; }
-
 .btn--for-hire-nope {
   background-color: #9f102e; }
+  .btn--for-hire-nope:hover {
+    background-color: transparent;
+    color: #9f102e;
+    border: 2px solid #9f102e; }
+  .btn--for-hire-nope:active {
+    background-color: #9f102e;
+    color: white;
+    transition: all 0 ease; }
 
 @media (min-width: 75rem) {
   [hide-xl] {
