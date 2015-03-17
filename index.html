@@ -26,34 +26,34 @@
 </head>
 <body>
 
-  <a class="[ btn--for-hire-yep  btn--for-hire  btn--fixed  btn ]" href="mailto:derek@derekperuo.net" web-only>
+  <div class="availability" web-only>
     <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
-    <h5 web-only>I'm <strong>accepting new projects</strong><br hide-xs hide-sm hide-md hide-lg/>
-        for Q3, 2015.</h5>
-  </a>
 
-  <div class="calendar">
-    <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
-    <label>2015 Availability</label>
-    <progress max="12" value="6"></progress>
-    <table>
-      <tr>
-        <td title="Jan - Not available">J</td>
-        <td title="Feb - Not available">F</td>
-        <td title="Mar - Not available" class="calendar__current-month">M</td>
-        <td title="Apr - Not available">A</td>
-        <td title="May - Not available">M</td>
-        <td title="Jun - Not available">J</td>
-        <td title="Jul - Available">J</td>
-        <td title="Aug - Available">A</td>
-        <td title="Sep - Available">S</td>
-        <td title="Oct - Available">O</td>
-        <td title="Nov - Available">N</td>
-        <td title="Dec - Available">D</td>
-      </tr>
-    </table>
+    <a class="[ btn--for-hire-nope  btn--for-hire  btn ]" href="mailto:derek@derekperuo.net">
+        <!-- <h5 web-only>I'm <strong>accepting new projects</strong><br hide-xs hide-sm hide-md hide-lg/> for Q3, 2015.</h5> -->
+        <h5 web-only>No new projects<br hide-xs hide-sm hide-md hide-lg/> until Q3, 2015.</h5>
+    </a>
+
+    <div class="availability__calendar">
+      <progress class="availability__calendar-bar" max="12" value="6"></progress>
+      <table class="availability__calendar-table">
+        <tr>
+          <td class="availability__calendar-month" title="January - Not available">J</td>
+          <td class="availability__calendar-month" title="February - Not available">F</td>
+          <td class="availability__calendar-month  availability__calendar-month--current" title="March - Not available">M</td>
+          <td class="availability__calendar-month" title="April - Not available">A</td>
+          <td class="availability__calendar-month" title="May - Not available">M</td>
+          <td class="availability__calendar-month" title="June - Not available">J</td>
+          <td class="availability__calendar-month" title="July - Available">J</td>
+          <td class="availability__calendar-month" title="August - Available">A</td>
+          <td class="availability__calendar-month" title="Sepember - Available">S</td>
+          <td class="availability__calendar-month" title="October - Available">O</td>
+          <td class="availability__calendar-month" title="November - Available">N</td>
+          <td class="availability__calendar-month" title="December - Available">D</td>
+        </tr>
+      </table>
+    </div>
   </div>
-
 
   <div class="header" ng-controller="headerCtrl as header">
 
