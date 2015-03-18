@@ -370,14 +370,14 @@ strong {
 .availability__calendar-month--current {
   position: relative; }
   .availability__calendar-month--current::after {
-    content: "\29bf";
+    content: "\25ce";
     position: absolute;
     left: 0;
-    top: calc(-100% - 0.04in);
+    top: calc(-100% - 0.02in);
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 0.9rem; }
+    font-size: 0.6rem; }
 
 @media (min-width: 75rem) {
   [hide-xl] {
