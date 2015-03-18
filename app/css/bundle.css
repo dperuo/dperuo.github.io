@@ -301,7 +301,8 @@ strong {
   color: white;
   line-height: 1.5;
   border: 2px solid transparent;
-  transition: all 0.25s ease; }
+  transition: all 0.25s ease;
+  margin-bottom: 0.2in; }
 
 .btn--for-hire-yep {
   background-color: #3f990f; }
@@ -336,40 +337,44 @@ strong {
       margin-bottom: 0.5in;
       width: 100%; } }
 
-.availability__calendar {
-  margin-top: 0.2in;
+.calendar,
+.calendar__bar,
+.calendar__text {
   width: 100%; }
 
-.availability__calendar-bar {
-  display: block;
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none; }
-  .availability__calendar-bar::-webkit-progress-bar {
-    background-color: #3f990f;
-    border-radius: 2px; }
-  .availability__calendar-bar::-webkit-progress-value {
-    background-color: #9f102e;
-    border-radius: 2px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
+.calendar__bar,
+.calendar__text {
+  margin-bottom: 0.04in;
+  border-collapse: collapse; }
 
-.availability__calendar-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 0.04in;
-  cursor: help; }
-
-.availability__calendar-month {
+.calendar__month {
   width: 8.33333%;
   text-align: center; }
 
-.availability__calendar-month + .availability__calendar-month {
+.calendar__month--bar {
+  height: 1rem; }
+  .calendar__month--bar:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px; }
+  .calendar__month--bar:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px; }
+
+.calendar__month--yep {
+  background-color: #3f990f; }
+
+.calendar__month--nope {
+  background-color: #9f102e; }
+
+.calendar__month--text {
+  cursor: help; }
+
+.calendar__month--text + .calendar__month--text {
   border-left: 1px solid #888888; }
 
-.availability__calendar-month--current {
+.calendar__month--current {
   position: relative; }
-  .availability__calendar-month--current::after {
+  .calendar__month--current::after {
     content: "\25ce";
     position: absolute;
     left: 0;

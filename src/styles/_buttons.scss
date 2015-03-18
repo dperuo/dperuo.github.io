@@ -70,16 +70,17 @@
 
 
 .btn--for-hire {
-  // top:             0.2in;
-  // left:            0.2in;
-  padding-left:    0.2in;
-  padding-right:   0.2in;
-  padding-bottom:  0.2in;
-  padding-top:     0.15in;
-  color:           white;
-  line-height:     1.5;
-  border:          2px solid transparent;
-  transition:      all 0.25s ease;
+  // top:         0.2in;
+  // left:        0.2in;
+  padding-left:   0.2in;
+  padding-right:  0.2in;
+  padding-bottom: 0.2in;
+  padding-top:    0.15in;
+  color:          white;
+  line-height:    1.5;
+  border:         2px solid transparent;
+  transition:     all 0.25s ease;
+  margin-bottom:  0.2in;
 
   // @media (max-width: $breakpoint-xl) {
   //   position: initial;
