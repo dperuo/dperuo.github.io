@@ -331,7 +331,7 @@ strong {
   top: 0.2in;
   left: 0.2in;
   width: 3in; }
-  @media (max-width: 75rem) {
+  @media (max-width: 78rem) {
     .availability {
       position: initial;
       margin-bottom: 0.5in;
@@ -384,11 +384,11 @@ strong {
     color: white;
     font-size: 0.6rem; }
 
-@media (min-width: 75rem) {
+@media (min-width: 78rem) {
   [hide-xl] {
     display: none !important; } }
 
-@media (min-width: 65rem) and (max-width: 75rem) {
+@media (min-width: 65rem) and (max-width: 78rem) {
   [hide-lg] {
     display: none !important; } }
 
