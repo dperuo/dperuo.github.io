@@ -13,14 +13,18 @@
 
 .calendar,
 .calendar__bar,
+.calendar__label,
 .calendar__text {
-  width: 100%;
+  width:           100%;
+  border-collapse: collapse;
 }
 
-.calendar__bar,
-.calendar__text {
-  margin-bottom:   0.04in;
-  border-collapse: collapse;
+.calendar table + table {
+  margin-top: 0.04in;
+}
+
+.calendar__label-half--last {
+  text-align: right;
 }
 
 .calendar__month {
@@ -32,12 +36,12 @@
   height: 1rem;
 
   &:first-child {
-    border-top-left-radius: 2px;
+    border-top-left-radius:    2px;
     border-bottom-left-radius: 2px;
   }
 
   &:last-child {
-   border-top-right-radius: 2px;
+   border-top-right-radius:    2px;
    border-bottom-right-radius: 2px;
   }
 }

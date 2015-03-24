@@ -339,13 +339,16 @@ strong {
 
 .calendar,
 .calendar__bar,
+.calendar__label,
 .calendar__text {
-  width: 100%; }
-
-.calendar__bar,
-.calendar__text {
-  margin-bottom: 0.04in;
+  width: 100%;
   border-collapse: collapse; }
+
+.calendar table + table {
+  margin-top: 0.04in; }
+
+.calendar__label-half--last {
+  text-align: right; }
 
 .calendar__month {
   width: 8.33333%;
