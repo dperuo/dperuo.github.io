@@ -20,7 +20,7 @@ var SkillList = React.createClass({
               <li className="skill-list__item">Node.js</li>
               <li className="skill-list__item">Photoshop</li>
               <li className="skill-list__item">Sass</li>
-              <li className="skill-list__item"><a href="http://git.io/URCTEA"><i className="fa fa-fw fa-share"></i>More&hellip;</a></li>
+              <li className="skill-list__item"><a href="/skills"><i className="fa fa-fw fa-share"></i>More&hellip;</a></li>
             </ul>
         </div>
       </div>
