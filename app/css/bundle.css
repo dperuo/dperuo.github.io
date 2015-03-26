@@ -161,6 +161,10 @@ strong {
 .header__current-event {
   text-align: center; }
 
+.header__link {
+  text-decoration: none;
+  color: inherit; }
+
 .section__heading {
   font-weight: 600;
   border-bottom: 1px solid black;
