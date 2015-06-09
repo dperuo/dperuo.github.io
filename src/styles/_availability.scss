@@ -54,6 +54,10 @@
   background-color: $negative;
 }
 
+.calendar__month--maybe {
+  background-color: $indifferent;
+}
+
 .calendar__month--text {
   cursor: help;
 }
