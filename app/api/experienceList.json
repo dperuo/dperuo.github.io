@@ -19,7 +19,7 @@
       "title":       "Software Developer (contract)",
       "description": "Rebuilt desktop software in Angular.js",
       "location":    "Hoboken, NJ, USA",
-      "dates":       "Jul 2014 – Dec 2014",
+      "dates":       "Jul 2014 – Jun 2015",
       "logo":        "logo-tr.svg",
       "link":        "http://thomsonreuters.com/"
     },
@@ -27,7 +27,7 @@
     {
       "company":     "McKinsey & Company",
       "title":       "Front-End Developer (contract)",
-      "description": "Responsive IE8-friendly CSS layouts",
+      "description": "Modular, reusable CSS for IE8",
       "location":    "New York, NY, USA",
       "dates":       "Jun 2014 – Aug 2014",
       "logo":        "logo-mckinsey.svg",
@@ -37,7 +37,7 @@
     {
       "company":     "Highwire Shakespeare",
       "title":       "Front-End Developer (side project)",
-      "description": "Responsive text using jQuery",
+      "description": "Open-source development and deployment",
       "location":    "New York, NY, USA",
       "dates":       "Feb 2013 – Present",
       "logo":        "logo-hws.svg",
@@ -47,7 +47,7 @@
     {
       "company":     "Renaissance Fitness Inc.",
       "title":       "Front-End Developer, Story Designer" ,
-      "description": "Static site built with Jekyll and Bootstrap",
+      "description": "New static site using Jekyll and Bootstrap",
       "location":    "New York, NY, USA",
       "dates":       "Jan 2008 – Jun 2014",
       "logo":        "logo-rfi.svg",
