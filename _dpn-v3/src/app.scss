@@ -1,14 +1,48 @@
-/**
- * #APP
- *
- * Main entry point for dpn-v3
- */
+//
+// #APP
+//
+// Main entry point for dpn-v3
+//
 
-@include "00-quarks/function-foo";
-@include "00-quarks/function-bar";
-@include "00-quarks/mixin-foo";
-@include "00-quarks/mixin-bar";
 
-@include "01-atoms/normalize";
-@include "01-atoms/box-sizing";
-@include "01-atoms/clearfix";
+// #SETTINGS
+// Global variables and configs
+@include "00-settings/config-foo";
+@include "00-settings/config-bar";
+@include "00-settings/variable-foo";
+@include "00-settings/variable-bar";
+
+
+// #TOOLS
+// Default functions and mixins
+@include "01-tools/function-foo";
+@include "01-tools/function-bar";
+@include "01-tools/mixin-foo";
+@include "01-tools/mixin-bar";
+
+
+// #GENERICS
+// High-level resets and standards
+@include "02-generics/normalize";
+@include "02-generics/clearfix";
+@include "02-generics/box-sizing";
+
+
+// #BASE
+// Unclassed HTML elements
+
+
+// #OBJECTS
+// UI-free design pattners
+
+
+// #COMPONENTS
+// Discreet chunks of UI
+
+
+// #THEME
+// Overrides for discreet chunks of unclassed HTML elements
+
+
+// #TRUMPS
+// Universal helpers and overrides
