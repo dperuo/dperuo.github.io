@@ -272,6 +272,7 @@ strong {
     transition: all 0 ease; }
 
 .btn--pair-with-me {
+  padding: 2px;
   background-color: #0c88b0; }
 
 .btn--remote {
