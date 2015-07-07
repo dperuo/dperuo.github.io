@@ -271,6 +271,9 @@ strong {
     color: white;
     transition: all 0 ease; }
 
+.btn--pair-with-me {
+  background-color: #0c88b0; }
+
 .btn--remote {
   top: 1in; }
   @media (max-width: 65rem) {
