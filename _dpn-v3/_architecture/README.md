@@ -12,6 +12,7 @@
 | `CNAME`           | IP-to-URL mapping for Github pages |
 | `CONTRIBUTING.md` | How to contribute to this project  |
 | `favicon.ico`     | Favicon for browser bookmarks      |
+| `gulpfile.js`     | Config file used by Gulp           |
 | `index.html`      | Homepage                           |
 | `LICENSE`         | The license for this repo          |
 | `package.json`    | Package file for npm               |
