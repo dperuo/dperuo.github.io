@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.8);
 }
 
 #headerwrap .container {
@@ -243,6 +243,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
   .navbar-collapse {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
   }
 }
