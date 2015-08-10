@@ -4,7 +4,7 @@
 
 | Location          | Description                        |
 | :-                | :-                                 |
-| `dist/`           | Production code                    |
+| `dist/`           | Production/distribution code       |
 | `gulp/`           | Custom gulp modules                |
 | `node_modules/`   | Modules installed by npm           |
 | `src/`            | Source code                        |
