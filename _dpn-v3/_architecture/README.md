@@ -5,10 +5,10 @@
 | Location          | Description                        |
 | :-                | :-                                 |
 | `dist/`           | Production/distribution code       |
-| `gulp/`           | Custom gulp modules                |
-| `node_modules/`   | Modules installed by npm           |
+| `node_modules/`   | Modules installed from npm         |
 | `src/`            | Source code                        |
 | `test/`           | Unit and End-to-End tests          |
+| `util/`           | Custom utility and helper modules  |
 | `CNAME`           | IP-to-URL mapping for Github pages |
 | `CONTRIBUTING.md` | How to contribute to this project  |
 | `favicon.ico`     | Favicon for browser bookmarks      |
