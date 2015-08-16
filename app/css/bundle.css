@@ -274,6 +274,8 @@ strong {
 .btn--pair-with-me {
   padding: 2px;
   background-color: #0c88b0; }
+  .btn--pair-with-me img {
+    max-width: 100%; }
 
 .btn--remote {
   top: 1in; }
