@@ -1,6 +1,6 @@
 ### Please follow [GitHub Flow][gh-flow] for contributions:
 1. The `master` branch is always stable and deployable.
-2. To work on something new, create a new branch off `master`. Give it a descriptive name (e.g.: `new-user-sign-up`).
+2. To work on something new, create a new branch off `master`. Give your branch a descriptive name (e.g. `new-user-sign-up`).
 3. Commit early and often to your local branch. Regularly push your work to the same named branch on GitHub.
 4. Open a pull request as soon as possible. Use the pull request to discuss your code and gain feedback.
 
