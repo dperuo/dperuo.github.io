@@ -1,15 +1,25 @@
 {
 
-  "currently": "Experimenting with Web Workers",
+  "currently": "Booked through Thanksgiving 2015",
 
   "work": [
+
+    {
+      "company":     "ISPOT Interactive",
+      "title":       "Senior Front-End Developer (contract)",
+      "description": "White-lable Angular.js apps",
+      "location":    "Concord, CA, USA",
+      "dates":       "Oct 2015 – Present",
+      "logo":        "no-logo.svg",
+      "link":        "http://www.ispot.com/"
+    },
 
     {
       "company":     "National Basketball Association (NBA)",
       "title":       "Software Consultant (contract)",
       "description": "Reusable modules for http://stats.nba.com",
       "location":    "Secaucus, NJ, USA",
-      "dates":       "Dec 2014 – Present",
+      "dates":       "Dec 2014 – Oct 2015",
       "logo":        "logo-nba.png",
       "link":        "http://stats.nba.com/"
     },
