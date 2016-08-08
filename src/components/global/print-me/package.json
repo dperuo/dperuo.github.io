@@ -1,8 +1,0 @@
-{
-  "name": "print-me",
-  "version": "1.0.0",
-  "description": "Activate print menu via button click",
-  "main": "index.js",
-  "author": "Derek Peruo <derek@derekperuo.net>",
-  "license": "MIT"
-}
