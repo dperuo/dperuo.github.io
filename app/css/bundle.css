@@ -24,6 +24,8 @@ section {
   border-radius: 2rem;
 }
 
+.pair-with-me {
+  
 @media screen and (max-width: 768px) {
   .headline {
     font-size: 3.5vw;
