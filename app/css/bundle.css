@@ -24,8 +24,20 @@ section {
   border-radius: 2rem;
 }
 
-.pair-with-me {
-  
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logo-list__item {
+  width: 19%;
+}
+
+section[logos] {
+    display: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .headline {
     font-size: 3.5vw;
