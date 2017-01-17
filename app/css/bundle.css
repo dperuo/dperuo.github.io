@@ -3,51 +3,27 @@ section {
 }
 
 .dp-text-primary {
-  font-size: 8vw;
+  font-size: 7vmax;
 }
 
 .dp-text-secondary {
-  font-size: 6vw;
+  font-size: 4vmax;
 }
 
-.dp-text-auxiliary-lg {
-  font-size: 4vw;
-}
-
-.dp-text-auxiliary-sm {
-  font-size: 3vw;
+.dp-text-auxiliary {
+  font-size: 2.6vmax;
 }
 
 .headline {
-  padding: 2rem;
-  border: 1px solid #000;
-  border-radius: 2rem;
+  padding: 1.2rem;
+  font-size: 2.9vmax;
+  font-weight: 200;
+  line-height: 1.5;
 }
 
-.logo-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.logo-list__item {
-  width: 19%;
-}
-
-section[logos] {
-    display: none !important;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 668px) {
   .headline {
-    font-size: 3.5vw;
-    line-height: 5vw;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1080px) {
-  .headline {
-    font-size: 3.5vw;
-    line-height: 5vw;
+    padding: 2rem;
+    font-size: 2.4vmax;
   }
 }
